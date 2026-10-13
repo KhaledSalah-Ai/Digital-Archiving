@@ -1,0 +1,73 @@
+﻿@model DocFlowSystem.WebUI.Models.DocumentCreateViewModel
+
+@{
+    ViewData["Title"] = "تعديل الوثيقة";
+}
+
+<h2 class="mb-4">تعديل بيانات الوثيقة</h2>
+
+<form asp-action="Edit" asp-route-id="@ViewBag.DocumentId" enctype="multipart/form-data" method="post">
+    <div class="row g-3">
+        <div class="col-md-6">
+            <label asp-for="DocumentNumber" class="form-label"></label>
+            <input asp-for="DocumentNumber" class="form-control" />
+            <span asp-validation-for="DocumentNumber" class="text-danger"></span>
+        </div>
+
+        <div class="col-md-6">
+            <label asp-for="RegistrationNumber" class="form-label"></label>
+            <input asp-for="RegistrationNumber" class="form-control" />
+            <span asp-validation-for="RegistrationNumber" class="text-danger"></span>
+        </div>
+
+        <div class="col-md-6">
+            <label asp-for="IssueDate" class="form-label"></label>
+            <input asp-for="IssueDate" type="date" class="form-control" />
+            <span asp-validation-for="IssueDate" class="text-danger"></span>
+        </div>
+
+        <div class="col-md-6">
+            <label asp-for="SourceEntity" class="form-label"></label>
+            <input asp-for="SourceEntity" class="form-control" />
+            <span asp-validation-for="SourceEntity" class="text-danger"></span>
+        </div>
+
+        <div class="col-md-6">
+            <label asp-for="DestinationDepartment" class="form-label"></label>
+            <input asp-for="DestinationDepartment" class="form-control" />
+            <span asp-validation-for="DestinationDepartment" class="text-danger"></span>
+        </div>
+
+        <div class="col-md-6">
+            <label asp-for="ReceiverName" class="form-label"></label>
+            <input asp-for="ReceiverName" class="form-control" />
+        </div>
+
+        <div class="col-12">
+            <label asp-for="Subject" class="form-label"></label>
+            <textarea asp-for="Subject" class="form-control" rows="2"></textarea>
+            <span asp-validation-for="Subject" class="text-danger"></span>
+        </div>
+
+        <div class="col-md-12">
+            <label asp-for="AttachmentFile" class="form-label"></label> (اختر ملف جديد فقط إذا أردت استبدال الحالي)
+            <input asp-for="AttachmentFile" type="file" class="form-control" />
+            @if (ViewBag.CurrentAttachment != null)
+            {
+                <small class="text-muted">الملف الحالي: <a href="@ViewBag.CurrentAttachment" target="_blank">عرض المرفق الحالي</a></small>
+            }
+        </div>
+
+        <div class="col-12">
+            <div class="form-check">
+                <input asp-for="IsUnderFollowUp" class="form-check-input" type="checkbox" />
+                <label asp-for="IsUnderFollowUp" class="form-check-label"></label>
+            </div>
+        </div>
+
+        <div class="col-12 mt-4">
+            <button type="submit" class="btn btn-primary">حفظ التغييرات</button>
+            <a asp-action="Index" class="btn btn-secondary">إلغاء</a>
+        </div>
+    </div>
+</form>

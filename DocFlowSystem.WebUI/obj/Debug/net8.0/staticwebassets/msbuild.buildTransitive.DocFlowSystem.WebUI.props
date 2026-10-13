@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\DocFlowSystem.WebUI.props" />
+</Project>

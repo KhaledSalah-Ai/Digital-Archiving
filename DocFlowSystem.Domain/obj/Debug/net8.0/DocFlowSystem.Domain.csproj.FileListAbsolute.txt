@@ -1,0 +1,11 @@
+C:\Users\elmoul\Desktop\projects git hub\Digital Archiving & Workflow System\DocFlowSystem\DocFlowSystem.Domain\bin\Debug\net8.0\DocFlowSystem.Domain.deps.json
+C:\Users\elmoul\Desktop\projects git hub\Digital Archiving & Workflow System\DocFlowSystem\DocFlowSystem.Domain\bin\Debug\net8.0\DocFlowSystem.Domain.dll
+C:\Users\elmoul\Desktop\projects git hub\Digital Archiving & Workflow System\DocFlowSystem\DocFlowSystem.Domain\bin\Debug\net8.0\DocFlowSystem.Domain.pdb
+C:\Users\elmoul\Desktop\projects git hub\Digital Archiving & Workflow System\DocFlowSystem\DocFlowSystem.Domain\obj\Debug\net8.0\DocFlowSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elmoul\Desktop\projects git hub\Digital Archiving & Workflow System\DocFlowSystem\DocFlowSystem.Domain\obj\Debug\net8.0\DocFlowSystem.Domain.AssemblyInfoInputs.cache
+C:\Users\elmoul\Desktop\projects git hub\Digital Archiving & Workflow System\DocFlowSystem\DocFlowSystem.Domain\obj\Debug\net8.0\DocFlowSystem.Domain.AssemblyInfo.cs
+C:\Users\elmoul\Desktop\projects git hub\Digital Archiving & Workflow System\DocFlowSystem\DocFlowSystem.Domain\obj\Debug\net8.0\DocFlowSystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\elmoul\Desktop\projects git hub\Digital Archiving & Workflow System\DocFlowSystem\DocFlowSystem.Domain\obj\Debug\net8.0\DocFlowSystem.Domain.dll
+C:\Users\elmoul\Desktop\projects git hub\Digital Archiving & Workflow System\DocFlowSystem\DocFlowSystem.Domain\obj\Debug\net8.0\refint\DocFlowSystem.Domain.dll
+C:\Users\elmoul\Desktop\projects git hub\Digital Archiving & Workflow System\DocFlowSystem\DocFlowSystem.Domain\obj\Debug\net8.0\DocFlowSystem.Domain.pdb
+C:\Users\elmoul\Desktop\projects git hub\Digital Archiving & Workflow System\DocFlowSystem\DocFlowSystem.Domain\obj\Debug\net8.0\ref\DocFlowSystem.Domain.dll

@@ -1,0 +1,124 @@
+﻿@model IEnumerable<DocFlowSystem.Application.DTOs.DocumentDto>
+
+@{
+    ViewData["Title"] = "سجل الوثائق والفاكسات";
+}
+
+<div class="container-fluid py-3">
+    <!-- الهيدر والأزرار العلوية -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <h2 class="fw-bold text-dark mb-1">سجل الوثائق والفاكسات الواردة</h2>
+            <p class="text-muted mb-0">تصفح وأرشفة كافة الفاكسات والمستندات في النظام</p>
+        </div>
+
+        <div class="d-flex gap-2">
+            <!-- زر تسجيل فاكس جديد (يظهر لجميع الموظفين والمدراء) -->
+            <a asp-action="Create" class="btn btn-primary px-3 shadow-sm">
+                <i class="bi bi-plus-lg"></i> تسجيل فاكس جديد
+            </a>
+
+            <!-- أزرار مخصصة فقط للمدير Manager -->
+            @if (User.IsInRole("Manager"))
+            {
+                <a asp-controller="Dashboard" asp-action="Index" class="btn btn-outline-primary px-3 shadow-sm">
+                    📊 لوحة التحكم
+                </a>
+                <a asp-controller="Account" asp-action="Register" class="btn btn-outline-success px-3 shadow-sm">
+                    👤 إضافة مستخدم جديد
+                </a>
+            }
+        </div>
+    </div>
+
+    <!-- شريط البحث المنسق والأنيق (حجم محدد ومتناسق) -->
+    <form asp-action="Index" method="get" class="mb-4">
+        <div class="row">
+            <div class="col-md-7 col-lg-5">
+                <div class="input-group shadow-sm rounded-3 overflow-hidden">
+                    <input type="text"
+                           name="searchTerm"
+                           class="form-control border-1 fs-6"
+                           placeholder="ابحث برقم الفاكس، رقم القيد، الجهة، أو الموضوع..."
+                           value="@ViewBag.CurrentSearch" />
+
+                    <button class="btn btn-primary px-4" type="submit">
+                        <i class="bi bi-search"></i> بحث
+                    </button>
+
+                    @if (!string.IsNullOrEmpty(ViewBag.CurrentSearch as string))
+                    {
+                        <a asp-action="Index" class="btn btn-outline-secondary d-flex align-items-center">إلغاء</a>
+                    }
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <!-- جدول عرض الفاكسات والمستندات -->
+    <div class="card border-0 shadow-sm rounded-3 overflow-hidden">
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped align-middle mb-0 text-center">
+                <thead class="table-dark">
+                    <tr>
+                        <th>رقم الفاكس</th>
+                        <th>رقم القيد</th>
+                        <th>التاريخ</th>
+                        <th>الجهة الوارد منها</th>
+                        <th>الموضوع</th>
+                        <th>الحالة</th>
+                        <th>المرفق</th>
+                        <th style="width: 280px;">الإجراءات</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (!Model.Any())
+                    {
+                        <tr>
+                            <td colspan="8" class="text-center text-muted py-4">
+                                لا توجد نتائج مطابقة لبحثك.
+                            </td>
+                        </tr>
+                    }
+                    else
+                    {
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.DocumentNumber</td>
+                                <td>@item.RegistrationNumber</td>
+                                <td>@item.IssueDate.ToString("yyyy/MM/dd")</td>
+                                <td>@item.SourceEntity</td>
+                                <td>@item.Subject</td>
+                                <td>
+                                    <span class="badge bg-info text-dark">@item.StatusName</span>
+                                </td>
+                                <td>
+                                    @if (!string.IsNullOrEmpty(item.AttachmentFilePath))
+                                    {
+                                        <a href="@item.AttachmentFilePath" target="_blank" class="btn btn-sm btn-outline-danger">عرض PDF</a>
+                                    }
+                                    else
+                                    {
+                                        <span class="text-muted">لا يوجد</span>
+                                    }
+                                </td>
+                                <td>
+                                    <div class="btn-group btn-group-sm" role="group">
+                                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info text-white">تفاصيل</a>
+                                        <a asp-action="ManagerDecision" asp-route-id="@item.Id" class="btn btn-dark">تأشيرة</a>
+                                        <a asp-action="SectionAction" asp-route-id="@item.Id" class="btn btn-success">الإجراء</a>
+                                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">تعديل</a>
+                                        <form asp-action="Delete" asp-route-id="@item.Id" method="post" onsubmit="return confirm('هل أنت متأكد من الحذف؟');" style="display:inline;">
+                                            <button type="submit" class="btn btn-danger">حذف</button>
+                                        </form>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

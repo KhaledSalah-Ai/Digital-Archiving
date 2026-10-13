@@ -1,0 +1,98 @@
+﻿@{
+    ViewData["Title"] = "لوحة التحكم - الإحصائيات";
+}
+
+<div class="container-fluid py-4">
+    <!-- الهيدر والزر "رجوع" -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <h2 class="fw-bold text-dark mb-1">لوحة متابعة الفاكسات والوثائق 📊</h2>
+            <p class="text-muted mb-0">متابعة شاملة لإحصائيات الفاكسات وحالة المستندات والمستخدمين</p>
+        </div>
+        <div class="d-flex gap-2">
+            <a asp-controller="Documents" asp-action="Index" class="btn btn-outline-secondary px-4 shadow-sm">
+                ⬅️ رجوع لسجل الفاكسات
+            </a>
+            <a asp-controller="Account" asp-action="Register" class="btn btn-success px-3 shadow-sm">
+                👤 إضافة مستخدم جديد
+            </a>
+        </div>
+    </div>
+
+    <!-- كروت الإحصائيات والأزرار التفاعلية -->
+    <div class="row g-4 mb-4">
+        <!-- إجمالي الفاكسات -->
+        <div class="col-md-3">
+            <div class="card border-0 shadow-sm rounded-4 bg-primary text-white p-3 h-100">
+                <div class="card-body d-flex justify-content-between align-items-center">
+                    <div>
+                        <h6 class="text-white-50 fw-semibold mb-2">إجمالي الفاكسات</h6>
+                        <h2 class="display-5 fw-bold mb-0">@(ViewBag.TotalFax ?? 0)</h2>
+                    </div>
+                    <div class="fs-1 opacity-75">📠</div>
+                </div>
+                <div class="card-footer bg-transparent border-0 pt-0 text-start">
+                    <a asp-controller="Documents" asp-action="Index" class="btn btn-light btn-sm fw-bold w-100 text-primary">
+                        استعراض السجل ⬅
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- الفاكسات المكتملة -->
+        <div class="col-md-3">
+            <div class="card border-0 shadow-sm rounded-4 bg-success text-white p-3 h-100">
+                <div class="card-body d-flex justify-content-between align-items-center">
+                    <div>
+                        <h6 class="text-white-50 fw-semibold mb-2">تم الانتهاء منها</h6>
+                        <h2 class="display-5 fw-bold mb-0">@(ViewBag.CompletedFax ?? 0)</h2>
+                    </div>
+                    <div class="fs-1 opacity-75">✅</div>
+                </div>
+                <div class="card-footer bg-transparent border-0 pt-0 text-start">
+                    <!-- التوجيه لدالة الفاكسات المكتملة في الـ Dashboard -->
+                    <a asp-controller="Dashboard" asp-action="CompletedFaxes" class="btn btn-light btn-sm fw-bold w-100 text-success">
+                        استعراض المكتملة ⬅
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- الفاكسات قيد التنفيذ -->
+        <div class="col-md-3">
+            <div class="card border-0 shadow-sm rounded-4 bg-warning text-dark p-3 h-100">
+                <div class="card-body d-flex justify-content-between align-items-center">
+                    <div>
+                        <h6 class="text-black-50 fw-semibold mb-2">قيد التنفيذ</h6>
+                        <h2 class="display-5 fw-bold mb-0">@(ViewBag.PendingFax ?? 0)</h2>
+                    </div>
+                    <div class="fs-1 opacity-75">⏳</div>
+                </div>
+                <div class="card-footer bg-transparent border-0 pt-0 text-start">
+                    <!-- التوجيه لدالة الفاكسات قيد التنفيذ في الـ Dashboard -->
+                    <a asp-controller="Dashboard" asp-action="PendingFaxes" class="btn btn-dark btn-sm fw-bold w-100 text-white">
+                        استعراض قيد التنفيذ ⬅
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- إجمالي المستخدمين -->
+        <div class="col-md-3">
+            <div class="card border-0 shadow-sm rounded-4 bg-dark text-white p-3 h-100">
+                <div class="card-body d-flex justify-content-between align-items-center">
+                    <div>
+                        <h6 class="text-white-50 fw-semibold mb-2">إجمالي المستخدمين</h6>
+                        <h2 class="display-5 fw-bold mb-0">@(ViewBag.UsersCount ?? 0)</h2>
+                    </div>
+                    <div class="fs-1 opacity-75">👥</div>
+                </div>
+                <div class="card-footer bg-transparent border-0 pt-0 text-start">
+                    <a asp-controller="Dashboard" asp-action="UsersList" class="btn btn-light btn-sm fw-bold w-100 text-dark">
+                        إدارة المستخدمين ⬅
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

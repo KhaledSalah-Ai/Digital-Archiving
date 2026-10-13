@@ -1,0 +1,285 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DocFlowSystem.WebUI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DocFlowSystem.WebUI.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\images\\log.jpg",
+      "PackagePath": "staticwebassets\\images\\log.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\uploads\\attachments\\0dc10ac0-5c48-4c00-8eeb-1979f5d0f378_Gemini_Generated_Image_nzdg3fnzdg3fnzdg.png",
+      "PackagePath": "staticwebassets\\uploads\\attachments\\0dc10ac0-5c48-4c00-8eeb-1979f5d0f378_Gemini_Generated_Image_nzdg3fnzdg3fnzdg.png"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\uploads\\attachments\\4ea59886-d04c-4837-a9f6-436d9f272362_2.jpg.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\attachments\\4ea59886-d04c-4837-a9f6-436d9f272362_2.jpg.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\uploads\\attachments\\742938fb-9eb2-4add-8e74-9208e3261537_212322 (1).jpeg",
+      "PackagePath": "staticwebassets\\uploads\\attachments\\742938fb-9eb2-4add-8e74-9208e3261537_212322 (1).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.WebUI\\wwwroot\\uploads\\attachments\\f8cffd58-2b68-4ebb-b7ee-eaddb920f5d1_212322 (1).jpeg",
+      "PackagePath": "staticwebassets\\uploads\\attachments\\f8cffd58-2b68-4ebb-b7ee-eaddb920f5d1_212322 (1).jpeg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DocFlowSystem.WebUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DocFlowSystem.WebUI.props",
+      "PackagePath": "build\\DocFlowSystem.WebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DocFlowSystem.WebUI.props",
+      "PackagePath": "buildMultiTargeting\\DocFlowSystem.WebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DocFlowSystem.WebUI.props",
+      "PackagePath": "buildTransitive\\DocFlowSystem.WebUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

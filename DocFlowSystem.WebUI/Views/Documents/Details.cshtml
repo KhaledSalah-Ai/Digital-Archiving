@@ -1,0 +1,80 @@
+﻿@model DocFlowSystem.Application.DTOs.DocumentDto
+
+@{
+    ViewData["Title"] = "تفاصيل الوثيقة";
+}
+
+<div class="card shadow-sm mt-3">
+    <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+        <h4 class="mb-0">تفاصيل الفاكس / الوثيقة رقم: @Model.DocumentNumber</h4>
+        <span class="badge bg-light text-dark fs-6">@Model.StatusName</span>
+    </div>
+    <div class="card-body">
+        <div class="row g-3">
+            <div class="col-md-4">
+                <strong>رقم القيد:</strong> @Model.RegistrationNumber
+            </div>
+            <div class="col-md-4">
+                <strong>تاريخ الصدور/الورود:</strong> @Model.IssueDate.ToString("yyyy/MM/dd")
+            </div>
+            <div class="col-md-4">
+                <strong>متابعة المكتب:</strong> @(Model.IsUnderFollowUp ? "نعم" : "لا")
+            </div>
+
+            <div class="col-md-6">
+                <strong>الجهة الوارد منها:</strong> @Model.SourceEntity
+            </div>
+            <div class="col-md-6">
+                <strong>القسم المختص:</strong> @Model.DestinationDepartment
+            </div>
+
+            <div class="col-12">
+                <strong>الموضوع:</strong>
+                <p class="border p-2 rounded bg-light mt-1">@Model.Subject</p>
+            </div>
+
+            <div class="col-md-6">
+                <strong>اسم المستلم:</strong> @(Model.ReceiverName ?? "غير محدد")
+            </div>
+            <div class="col-md-6">
+                <strong>القرار / التوجيه:</strong> @(Model.ManagerDecision ?? "لا يوجد")
+            </div>
+
+            <div class="col-md-6">
+                <strong>الملف المرفق الأصلي:</strong>
+                <div class="mt-1">
+                    @if (!string.IsNullOrEmpty(Model.AttachmentFilePath))
+                    {
+                        <a href="@Model.AttachmentFilePath" target="_blank" class="btn btn-outline-danger btn-sm">
+                            <i class="bi bi-file-earmark-pdf"></i> فتح وثيقة الفاكس
+                        </a>
+                    }
+                    else
+                    {
+                        <span class="text-muted">لا يوجد مرفق</span>
+                    }
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <strong>ملف الإجراء المتخذ:</strong>
+                <div class="mt-1">
+                    @if (!string.IsNullOrEmpty(Model.ActionFilePath))
+                    {
+                        <a href="@Model.ActionFilePath" target="_blank" class="btn btn-outline-success btn-sm">
+                            <i class="bi bi-file-earmark-check"></i> فتح ملف الإجراء
+                        </a>
+                    }
+                    else
+                    {
+                        <span class="text-muted">لم يتم رفع إجراء بعد</span>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-footer d-flex gap-2">
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">تعديل</a>
+        <a asp-action="Index" class="btn btn-secondary">الرجوع للقائمة</a>
+    </div>
+</div>

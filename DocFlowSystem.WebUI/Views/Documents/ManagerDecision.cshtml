@@ -1,0 +1,36 @@
+﻿@model DocFlowSystem.WebUI.Models.ManagerDecisionViewModel
+
+@{
+    ViewData["Title"] = "قرار وتأشيرة رئيس الفرع";
+}
+
+<h3 class="mb-3">تسجيل قرار / تأشيرة رئيس الفرع</h3>
+
+<div class="card mb-4">
+    <div class="card-body bg-light">
+        <h5>الفاكس رقم: <strong>@ViewBag.DocumentNumber</strong></h5>
+        <p class="mb-0"><strong>الموضوع:</strong> @ViewBag.Subject</p>
+    </div>
+</div>
+
+<form asp-action="ManagerDecision" method="post">
+    <input type="hidden" asp-for="DocumentId" />
+
+    <div class="mb-3">
+        <label asp-for="ManagerDecision" class="form-label"></label>
+        <textarea asp-for="ManagerDecision" class="form-control" rows="4" placeholder="اكتب التوجيه أو التأشيرة هنا..."></textarea>
+        <span asp-validation-for="ManagerDecision" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="StatusId" class="form-label">تحويل حالة المعاملة إلى</label>
+        <select asp-for="StatusId" class="form-select">
+            <option value="2">قيد الإجراء (محولة للقسم المختص)</option>
+            <option value="3">تم الانتهاء مباشرة</option>
+            <option value="4">أرشفة</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-success">حفظ التوجيه</button>
+    <a asp-action="Index" class="btn btn-secondary">إلغاء</a>
+</form>

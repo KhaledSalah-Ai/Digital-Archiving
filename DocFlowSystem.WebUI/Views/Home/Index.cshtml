@@ -1,0 +1,104 @@
+﻿@{
+    ViewData["Title"] = "الرئيسية - نظام أرشفة الفاكسات";
+}
+
+<style>
+    .hero-section {
+        background-color: #ffffff;
+        padding: 100px 0; /* مساحات عمودية واسعة */
+    }
+
+    .hero-title {
+        font-size: 3.5rem;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    .hero-subtitle {
+        font-size: 1.25rem;
+        color: #6c757d;
+        margin-bottom: 2rem;
+    }
+
+    .hero-img {
+        border-radius: 30px; /* حواف دائرية ناعمة للصورة */
+        box-shadow: 0 20px 40px rgba(0,0,0,0.1); /* ظل ناعم وكبير */
+    }
+
+    .feature-card {
+        background: #fff;
+        border: none;
+        border-radius: 20px;
+        padding: 30px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+
+    .feature-icon {
+        font-size: 2.5rem;
+        color: #0d6efd;
+        margin-bottom: 20px;
+    }
+</style>
+
+<section class="hero-section">
+    <div class="container">
+        <div class="row align-items-center">
+
+            <!-- القسم الأيسر: النصوص والدعوة لاتخاذ إجراء -->
+            <div class="col-lg-6 text-end pe-lg-5">
+                <h1 class="hero-title mb-3">
+                    نظام إدارة وأرشفة الفاكسات الرقمية <span class="text-primary">DocFlow</span>
+                </h1>
+
+                <p class="hero-subtitle mb-4">
+                    منصة رقمية متكاملة ومؤمنة تتيح للمؤسسات والشركات إدارة الفاكسات الواردة والصادرة، تتبع حالة المستندات، وتنظيم الصلاحيات بدقة عالية بين الإدارة والموظفين لضمان سرعة وسهولة وسير العمل.
+                </p>
+
+                
+            </div>
+
+            <!-- القسم الأيمن: الصورة المحلية من wwwroot بحواف دائرية -->
+            <div class="col-lg-6 text-center">
+                <img src="~/images/log.jpg"
+                     class="img-fluid hero-img"
+                     alt="نظام أرشفة الفاكسات" />
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- قسم الميزات في كروت منفصلة -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row g-4 text-center">
+            <div class="col-md-4">
+                <div class="card feature-card h-100">
+                    <div class="feature-icon">🛡️</div>
+                    <h4 class="fw-bold mb-3">حماية عالية</h4>
+                    <p class="text-muted mb-0">صلاحيات مخصصة للرؤساء والموظفين لضمان سرية البيانات.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card feature-card h-100">
+                    <div class="feature-icon">📑</div>
+                    <h4 class="fw-bold mb-3">تتبع الفاكسات</h4>
+                    <p class="text-muted mb-0">إدارة كاملة لحركة المستندات وتتبع حالتها بدقة.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card feature-card h-100">
+                    <div class="feature-icon">🔍</div>
+                    <h4 class="fw-bold mb-3">بحث سريع</h4>
+                    <p class="text-muted mb-0">الوصول الفوري للمعلومات والأرشيف التاريخي للفاكسات.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

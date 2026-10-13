@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ccV82dwMvTgYOi9Ci4Cu/oBd15gIs7yKS40Mjy7FTNczLQA6DieDdnrW9fR29BiRvFuv8Qkkr5AaAF0DQ/NAWg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\elmoul\\Desktop\\projects git hub\\Digital Archiving & Workflow System\\DocFlowSystem\\DocFlowSystem.Application\\DocFlowSystem.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\elmoul\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\elmoul\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\elmoul\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

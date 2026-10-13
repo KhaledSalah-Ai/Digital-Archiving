@@ -1,0 +1,15 @@
+C:\Users\elmoul\Desktop\projects git hub\Digital Archiving & Workflow System\DocFlowSystem\DocFlowSystem.Application\obj\Debug\net8.0\DocFlowSystem.Application.csproj.AssemblyReference.cache
+C:\Users\elmoul\Desktop\projects git hub\Digital Archiving & Workflow System\DocFlowSystem\DocFlowSystem.Application\obj\Debug\net8.0\DocFlowSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elmoul\Desktop\projects git hub\Digital Archiving & Workflow System\DocFlowSystem\DocFlowSystem.Application\obj\Debug\net8.0\DocFlowSystem.Application.AssemblyInfoInputs.cache
+C:\Users\elmoul\Desktop\projects git hub\Digital Archiving & Workflow System\DocFlowSystem\DocFlowSystem.Application\obj\Debug\net8.0\DocFlowSystem.Application.AssemblyInfo.cs
+C:\Users\elmoul\Desktop\projects git hub\Digital Archiving & Workflow System\DocFlowSystem\DocFlowSystem.Application\obj\Debug\net8.0\DocFlowSystem.Application.csproj.CoreCompileInputs.cache
+C:\Users\elmoul\Desktop\projects git hub\Digital Archiving & Workflow System\DocFlowSystem\DocFlowSystem.Application\bin\Debug\net8.0\DocFlowSystem.Application.deps.json
+C:\Users\elmoul\Desktop\projects git hub\Digital Archiving & Workflow System\DocFlowSystem\DocFlowSystem.Application\bin\Debug\net8.0\DocFlowSystem.Application.dll
+C:\Users\elmoul\Desktop\projects git hub\Digital Archiving & Workflow System\DocFlowSystem\DocFlowSystem.Application\bin\Debug\net8.0\DocFlowSystem.Application.pdb
+C:\Users\elmoul\Desktop\projects git hub\Digital Archiving & Workflow System\DocFlowSystem\DocFlowSystem.Application\bin\Debug\net8.0\DocFlowSystem.Domain.dll
+C:\Users\elmoul\Desktop\projects git hub\Digital Archiving & Workflow System\DocFlowSystem\DocFlowSystem.Application\bin\Debug\net8.0\DocFlowSystem.Domain.pdb
+C:\Users\elmoul\Desktop\projects git hub\Digital Archiving & Workflow System\DocFlowSystem\DocFlowSystem.Application\obj\Debug\net8.0\DocFlowSystem.Application.csproj.CopyComplete
+C:\Users\elmoul\Desktop\projects git hub\Digital Archiving & Workflow System\DocFlowSystem\DocFlowSystem.Application\obj\Debug\net8.0\DocFlowSystem.Application.dll
+C:\Users\elmoul\Desktop\projects git hub\Digital Archiving & Workflow System\DocFlowSystem\DocFlowSystem.Application\obj\Debug\net8.0\refint\DocFlowSystem.Application.dll
+C:\Users\elmoul\Desktop\projects git hub\Digital Archiving & Workflow System\DocFlowSystem\DocFlowSystem.Application\obj\Debug\net8.0\DocFlowSystem.Application.pdb
+C:\Users\elmoul\Desktop\projects git hub\Digital Archiving & Workflow System\DocFlowSystem\DocFlowSystem.Application\obj\Debug\net8.0\ref\DocFlowSystem.Application.dll

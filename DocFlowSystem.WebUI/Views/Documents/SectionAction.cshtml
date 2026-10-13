@@ -1,0 +1,33 @@
+﻿@model DocFlowSystem.WebUI.Models.SectionActionViewModel
+
+@{
+    ViewData["Title"] = "إجراء القسم المختص";
+}
+
+<h3 class="mb-3">تسجيل الإجراء المتخذ بواسطة القسم</h3>
+
+<div class="card mb-4">
+    <div class="card-body bg-light">
+        <h5>الفاكس رقم: <strong>@ViewBag.DocumentNumber</strong></h5>
+        <p><strong>الموضوع:</strong> @ViewBag.Subject</p>
+        <p class="mb-0 text-primary"><strong>توجيه رئيس الفرع:</strong> @(ViewBag.ManagerDecision ?? "لا يوجد تأشيرة محدده")</p>
+    </div>
+</div>
+
+<form asp-action="SectionAction" enctype="multipart/form-data" method="post">
+    <input type="hidden" asp-for="DocumentId" />
+
+    <div class="mb-3">
+        <label asp-for="ActionTaken" class="form-label"></label>
+        <textarea asp-for="ActionTaken" class="form-control" rows="4" placeholder="اكتب تفاصيل الرد أو الإجراء المتخذ..."></textarea>
+        <span asp-validation-for="ActionTaken" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="ActionFile" class="form-label"></label>
+        <input asp-for="ActionFile" type="file" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">حفظ وتأكيد إنجاز المعاملة</button>
+    <a asp-action="Index" class="btn btn-secondary">إلغاء</a>
+</form>
